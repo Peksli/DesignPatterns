@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Fabric methoddf\Archer.h" />
-    <ClInclude Include="..\Fabric methoddf\Entity.h" />
-    <ClInclude Include="..\Fabric methoddf\EntityFabric.h" />
-    <ClInclude Include="..\Fabric methoddf\Knight.h" />
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityFabric.h" />
+    <ClInclude Include="Knight.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Fabric methoddf\main.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
