@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{468e4843-1cfe-437f-97d0-d7479cd7e01b}</ProjectGuid>
-    <RootNamespace>AllDesignPatterns</RootNamespace>
+    <ProjectGuid>{2ae5fb95-862b-478c-84bc-80b8b490bc35}</ProjectGuid>
+    <RootNamespace>Fabricmethod</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>FabricMethod</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="..\Fabric methoddf\Archer.h" />
+    <ClInclude Include="..\Fabric methoddf\Entity.h" />
+    <ClInclude Include="..\Fabric methoddf\EntityFabric.h" />
+    <ClInclude Include="..\Fabric methoddf\Knight.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Archer.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="EntityFabric.h" />
-    <ClInclude Include="Knight.h" />
+    <ClCompile Include="..\Fabric methoddf\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
