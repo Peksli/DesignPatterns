@@ -11,6 +11,10 @@ void ClientCode()
 
 	delete eF_archer;
 	delete eF_knight;
+
+	EntityFabric* eF_Archer = new ArcherFabric();
+	Entity* hero = eF_Archer->createHero();
+	hero->attack();
 }
 
 
